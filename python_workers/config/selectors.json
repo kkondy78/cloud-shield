@@ -1,0 +1,25 @@
+{
+    "youtube": {
+        "url_search": "https://www.youtube.com/results?search_query=",
+        "comment_body": "#content-text",
+        "video_title": "h1.ytd-video-primary-info-renderer"
+    },
+    "reddit": {
+        "url_search": "https://www.reddit.com/r/SaaS/search/?q=",
+        "post_title": "shreddit-post h1",
+        "post_body": "div.text-neutral-content"
+    },
+    "playstore": {
+        "url_base": "https://play.google.com/store/apps/details?id=",
+        "review_body": "div.h3YV2d"
+    },
+    "notebooklm": {
+        "url_home": "https://notebooklm.google.com/",
+        "new_notebook_btn": "div.new-notebook-item, span:has-text('New notebook'), div[role='button']:has-text('New notebook')",
+        "add_source_btn": "button.add-source-fab, span:has-text('Add source')",
+        "chat_input": "textarea[placeholder='Ask a question...'], div[role='textbox']",
+        "chat_submit_btn": "button[aria-label='Submit'], button:has-text('Submit')",
+        "chat_response_latest": "model-response-text, .model-response-text",
+        "notebook_title": "h1.notebook-title, input[aria-label='Notebook title']"
+    }
+}
